@@ -1,6 +1,17 @@
-# ПРОЕКТ YATUBE API
+# ПРОЕКТ **YAMDB API**
 
-## *Инфраструктура социальной сети Yatube*
+[![API for YaMDB project workflow](https://github.com/mashka33/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
+![python version](https://img.shields.io/badge/Python-3.9-green)
+![django version](https://img.shields.io/badge/Django-2.2-green)
+![Docker version](https://img.shields.io/badge/Docker-4.15-green)
+![Djangorestframework version](https://img.shields.io/badge/Djangorestframework-3.12-green)
+![PyJWT version](https://img.shields.io/badge/PyJWT-2.1-green)
+![gunicornversion](https://img.shields.io/badge/gunicorn-12.7-green)
+
+
+
+## *Инфраструктура социальной сети Yamdb*
 
 ### Описание проекта:
 
@@ -8,7 +19,7 @@
 Также Yatube позволяет просматривать и комментировать записи других авторов. Незарегистрированным пользователям
 доступен просмотр чужих постов и комментариев.
 
-Учебный проект 15 спринта факультета бэкенд-разработки [Яндекс.Практикума](https://practicum.yandex.ru/backend-developer)
+Учебный проект 16 спринта факультета бэкенд-разработки [Яндекс.Практикума](https://practicum.yandex.ru/backend-developer)
 
 ## стек:
 - Python

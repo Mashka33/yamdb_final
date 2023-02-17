@@ -7,10 +7,10 @@ from django.core.mail import send_mail
 from django.shortcuts import get_object_or_404
 
 from models import User
-from permissions import (IsAdminOrSuperUserList, IsAdminOrSuperUser)
-from serializers import (GetTokenSerializer, SignUpSerializer, UserPatchSerializer,
-                         UserSerializer)
-from tokens import get_tokens_for_user, account_activation_token
+from permissions import (IsAdminOrSuperUser, IsAdminOrSuperUserList)
+from serializers import (GetTokenSerializer, SignUpSerializer,
+                         UserPatchSerializer, UserSerializer)
+from tokens import account_activation_token, get_tokens_for_user
 
 
 class UserList(generics.ListCreateAPIView):

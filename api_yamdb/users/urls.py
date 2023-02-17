@@ -4,7 +4,7 @@ from rest_framework_simplejwt.views import (
     TokenRefreshView,
 )
 
-from .views import send_code_view, get_token_view, UserDetail, UserList
+from .views import get_token_view, send_code_view, UserDetail, UserList
 
 urlpatterns = [
     path('api/token/', TokenObtainPairView.as_view(),

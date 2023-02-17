@@ -1,8 +1,8 @@
 from django.shortcuts import get_object_or_404
 from rest_framework import serializers
 
-from users.models import User, ROLES
-from users.tokens import account_activation_token
+from .models import ROLES, User
+from .tokens import account_activation_token
 
 
 class UserSerializer(serializers.ModelSerializer):

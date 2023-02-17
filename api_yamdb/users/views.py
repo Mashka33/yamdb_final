@@ -1,10 +1,10 @@
-from django.core.mail import send_mail
-from django.shortcuts import get_object_or_404
-from rest_framework import generics, filters, status
+from rest_framework import filters, generics, status
 from rest_framework.decorators import api_view
 from rest_framework.exceptions import MethodNotAllowed
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
+from django.core.mail import send_mail
+from django.shortcuts import get_object_or_404
 
 from models import User
 from permissions import (IsAdminOrSuperUserList, IsAdminOrSuperUser)

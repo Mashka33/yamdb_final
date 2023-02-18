@@ -1,9 +1,7 @@
+from django.urls import path
 from rest_framework_simplejwt.views import (TokenObtainPairView,
                                             TokenRefreshView)
-
-from django.urls import path
-
-from .views import get_token_view, send_code_view, UserDetail, UserList
+from .views import UserDetail, UserList, get_token_view, send_code_view
 
 urlpatterns = [
     path('api/token/', TokenObtainPairView.as_view(),

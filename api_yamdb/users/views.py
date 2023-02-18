@@ -7,7 +7,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 
 from .models import User
-from .permissions import (IsAdminOrSuperUser, IsAdminOrSuperUserList)
+from .permissions import IsAdminOrSuperUser, IsAdminOrSuperUserList
 from .serializers import (GetTokenSerializer, SignUpSerializer,
                           UserPatchSerializer, UserSerializer)
 from .tokens import account_activation_token, get_tokens_for_user

@@ -65,7 +65,7 @@ jobs:
           script: |
             sudo docker-compose stop
             sudo docker-compose rm web
-            sudo docker pull marysik666/infra_actions:latest
+            sudo docker pull ${{ secrets.DOCKER_USERNAME }}/infra_actions:latest
             touch .env
             echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
             echo DB_NAME=${{ secrets.DB_NAME }} >> .env

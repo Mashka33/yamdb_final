@@ -9,6 +9,8 @@
 ![PyJWT version](https://img.shields.io/badge/PyJWT-2.1-green)
 ![gunicornversion](https://img.shields.io/badge/gunicorn-12.7-green)
 
+#### Проект доступен по эл.адресу:
+http://158.160.36.57/admin/
 
 ## *Инфраструктура социальной сети Yamdb*
 

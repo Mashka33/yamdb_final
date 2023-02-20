@@ -1,6 +1,6 @@
 # ПРОЕКТ **YAMDB API**
 
-[![API for YaMDB project workflow](https://github.com/mashka33/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+[![Django-app workflow](https://github.com/Mashka33/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/Mashka33/yamdb_final/actions/workflows/yamdb_workflow.yml)
 
 ![python version](https://img.shields.io/badge/Python-3.9-green)
 ![django version](https://img.shields.io/badge/Django-2.2-green)
